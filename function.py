@@ -19,3 +19,9 @@ def square(long, high, colour=9991):
     print(f"Area: {cal}, Colour: {colour}")
 
 square(20, 15)
+
+def triangle(base,high):
+    cal = base * high * 0.5
+    print(f"triangle: {cal}")
+
+triangle(20,40)
